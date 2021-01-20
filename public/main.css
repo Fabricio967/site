@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+body{
+    background-color: #babaca;
+}
+
+h1 {
+    padding: 0 0 1em 0;
+}
+
+#content{
+    margin: 3em auto; 
+    padding: 4rem;
+    justify-content: center;
+    text-align: justify;
+    background-color:gainsboro;
+    /* max-width: 66%; */
+    width: 960px;
+}
+
+@media screen and (min-width: 450px){
+
+    body{       
+        display: flex;
+    }
+}
